@@ -1,0 +1,13 @@
+train: /mnt/d/WSL/ubuntu/dataset/AcneV86/train/images
+val: /mnt/d/WSL/ubuntu/dataset/AcneV86/valid/images
+test: /mnt/d/WSL/ubuntu/dataset/AcneV86/test/images
+
+nc: 3
+names: ['blackhead', 'fungal', 'nodule']
+
+roboflow:
+  workspace: eursamajor
+  project: acne-detection-oqw6u
+  version: 12
+  license: Public Domain
+  url: https://universe.roboflow.com/eursamajor/acne-detection-oqw6u/dataset/12
